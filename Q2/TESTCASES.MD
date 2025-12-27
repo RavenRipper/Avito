@@ -10,14 +10,23 @@
 
 json
 {
-  "sellerID": 111111,
-  "name": "Тестовый товар",
-  "price": 1000,
-  "statistics": {
-    "contacts": 3,
-    "likes": 500,
-    "viewCount": 1523
-  }
+  
+"sellerID": 111111,
+
+"name": "Тестовый товар",
+
+"price": 1000,
+
+"statistics": {
+
+"contacts": 3,
+
+"likes": 500,
+
+"viewCount": 1523
+
+}
+
 }
 
 Ожидаемый результат: статус-код 200 OK, в ответе поле status с UUID созданного объявления.
